@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <title>Feedback Form</title>
+    </head>
+    <body style="background-color:rgba(181, 245, 255, 0.664);">
+        <form enctype="multipart/form-data" action="get_demo.py" method="post">
+            <h2>Feedback Form</h2>
+            Name: <input type="text" name="fname"><br><br>
+            Email: <input type="email" name="mail"><br><br>
+            Password: <input type="password" name="password"><br><br>
+
+            Please check all the emotions that apply to you: <br>
+            &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox" name="emotion" value="Angry">Angry<br>
+            &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox" name="emotion" value="Sad">Sad<br>
+            &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox" name="emotion" value="Happy">Happy<br>
+            &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox" name="emotion" value="Ambivalent">Ambivalent<br><br>
+           
+            How satisfied were you with our service? <br>
+            &nbsp; &nbsp; &nbsp; &nbsp;  <input type="radio" name="satisfaction" value="Very Satisfied">Very Satisfied<br>
+            &nbsp; &nbsp; &nbsp; &nbsp;  <input type="radio" name="satisfaction" value="Satisfied">Satisfied<br>
+            &nbsp; &nbsp; &nbsp; &nbsp;  <input type="radio" name="satisfaction" value="Didn't Care">Didn't Care<br>
+            &nbsp; &nbsp; &nbsp; &nbsp;  <input type="radio" name="satisfaction" value="Dissatisfied">Dissatisfied<br>
+            &nbsp; &nbsp; &nbsp; &nbsp;  <input type="radio" name="satisfaction" value="Very Dissatisfied">Very Dissatisfied<br><br>
+
+            Further comments: <br><textarea name="comments" id="" cols="35" rows="2" placeholder="Please provide your valuable comments here..."></textarea> <br> <br>
+
+            Bio photo: &nbsp; <input type="file" name="profileimg"> <br><br>
+
+            Location Visited: &nbsp; <select id="location" name="location">
+                <option value="none" selected disabled hidden>Select an Option</option>
+                <option value="Australia">Australia</option>
+                <option value="India">India</option>
+                <option value="UK">UK</option>
+                <option value="USA">USA</option>
+              </select> <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
