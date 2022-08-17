@@ -28,9 +28,9 @@ def server_program():
             #if data is not received, then break the while loop
             break
             #if valid data we can print the data received
-        print("message from client " + str(address) + " : " + str(data))
+        print("Message from client " + str(address) + " : " + str(data))
         #give provision to send reply back to the clinet
-        data = input('Send Reply:')
+        data = input('Send Reply to client:')
         conn.send(data.encode()) #encode the data and send data to the client
     
     conn.close() #close the connection once the while loop breaks

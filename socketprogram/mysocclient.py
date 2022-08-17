@@ -22,7 +22,7 @@ def client_program():
         #receive any reply from the server
         data = client_socket.recv(1024).decode()
         #printing the received data as text
-        print("Receeived from server: "+data)
+        print("Received from server: "+data)
         #getting the msg to send to the server
         message = input("Enter the msg as reply to server: ")
 
