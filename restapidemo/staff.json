@@ -1,0 +1,40 @@
+{
+  "staff": [
+    {
+      "id": 1,
+      "email": "testuser1@gmail.com",
+      "password": "testpassword1",
+      "first_name": "FirstName 1",
+      "last_name": "LastName 1",
+      "mobile_no": "1111111111",
+      "date_of_joining": "01-01-2021"
+    },
+    {
+      "id": 2,
+      "email": "testuser2@gmail.com",
+      "password": "testpassword2",
+      "first_name": "FirstName 2",
+      "last_name": "LastName 2",
+      "mobile_no": "222222222",
+      "date_of_joining": "01-01-2021"
+    },
+    {
+      "id": 3,
+      "email": "testuser3@gmail.com",
+      "password": "testpassword333333",
+      "first_name": "FirstName 3",
+      "last_name": "LastName 3",
+      "mobile_no": "3333333333",
+      "date_of_joining": "03-01-2021"
+    },
+    {
+      "id": 4,
+      "email": "testuser4@gmail.com",
+      "password": "testpassword4",
+      "first_name": "FirstName 4",
+      "last_name": "LastName 4",
+      "mobile_no": "4444444444",
+      "date_of_joining": "04-01-2021"
+    }
+  ]
+}
