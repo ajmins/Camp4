@@ -3,7 +3,7 @@ import re
 import pyodbc
 
 from flask import Flask, jsonify, abort, request
-
+#decorator for dbms connection
 def dbms(func):
     @functools.wraps(func)
     def innerWrapper(*args):
