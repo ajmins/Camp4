@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <form action="" method="post">
+        <div>
+            <h1>Hello, {% if name %}{{name}}{% else %}Guest{% endif %}</h1>
+        </div>
+        <form method="post">
             {{form.hidden_tag()}} <!--needed for every file-->
             {{form.name.label}} {{form.name()}}
             {{form.submit()}}
